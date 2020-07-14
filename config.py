@@ -1,8 +1,8 @@
 #This files holds the main variables, the tokens and the URLs, 
 #along with specific URL formats to proceed to HTTP requests 
 
-TOKEN = '1184647758:AAHqSNCXENyuEDRbcdWrs874waAr0Cy9hPg'
-NGROK_URL = 'https://84ffd6a5f44b.ngrok.io'
+TOKEN = 'YOU TOKEN'
+NGROK_URL = 'YOU NGROK URL'
 BASE_TELEGRAM_URL = 'https://api.telegram.org/bot{}'.format(TOKEN)
 LOCAL_WEBHOOK_ENDPOINT = '{}/webhook'.format(NGROK_URL)
 TELEGRAM_INIT_WEBHOOK_URL = '{}/setWebhook?url={}'.format(BASE_TELEGRAM_URL, LOCAL_WEBHOOK_ENDPOINT)
